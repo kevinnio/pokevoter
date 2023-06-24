@@ -1,0 +1,11 @@
+.Pokemon__picture {
+  max-width: 400px;
+}
+
+.Pokemon__vote-counters {
+  font-size: 5em;
+}
+
+.Pokemon__dislike-counter {
+  float: right;
+}
