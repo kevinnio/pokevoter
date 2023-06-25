@@ -3,11 +3,12 @@ import Controls from "./components/Controls"
 import Pokemon from "./components/Pokemon"
 
 import LocalStorageVoteStore from "./lib/LocalStorageVoteStore"
+import HardhatVoteStore from "./lib/HardhatVoteStore"
 
 import "./App.css"
 
 let pokemonList
-const voteStore = new LocalStorageVoteStore()
+const voteStore = new HardhatVoteStore()
 
 function getRandomPokemon() {
   const index = Math.floor(Math.random() * pokemonList.length)
